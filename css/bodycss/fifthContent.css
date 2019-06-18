@@ -1,0 +1,31 @@
+#section5 {
+    padding: 80px 0;
+    text-align: center;
+}
+.team>img{
+    width: 130px;
+    height: 130px;
+    border: 1px solid #f8f7f8;
+    border-radius: 50%;
+}
+.teamInfo>h3{
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+}
+.teamInfo>p{
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.teamInfo>i{
+    font-size: 18px;
+    color: #b1b5b8;
+    margin-top: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.teamInfo>i:hover{
+    color: #19B5FE;
+}

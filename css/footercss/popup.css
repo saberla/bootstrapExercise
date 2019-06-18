@@ -1,0 +1,58 @@
+.Pop_up{
+    position: fixed;
+    /* height: 1000px; */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color: #fff;
+    z-index: 2000;
+    padding-top: 100px;
+    overflow-y: auto;
+    display: none;
+}
+.PopContainer{
+    position: relative;
+    padding-bottom: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.PopWord>h2{
+    animation: none;
+}
+.PopWord>span{
+    font-style: italic;
+}
+.PopImg>img{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.popDown_word{
+    width: 720px;
+    position: relative;
+    left: 22%;
+}
+.popDown_word>p{
+    font-size: 15px;
+}
+.popDown_word>span{
+    font-weight: bolder;
+    margin-left: 10px;
+}
+.closeBtn{
+    background-color: rgb(130, 159, 204);
+    border-radius: 3px;
+    border: 1px solid transparent;
+    margin-top: 40px;
+    color: #fff
+}
+.close_btn{
+    position: absolute;
+    right: 40px;
+    top: -94px;
+    font-size: 100px;
+    cursor: pointer;
+}

@@ -1,0 +1,31 @@
+#social{
+    padding: 20px 0;
+    background-color: #c9cbce;
+    text-align: center;
+}
+.social>ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.social>ul>li>a>i{
+    font-size: 24px;
+    color: #fff;
+    margin-left: 60px;
+    padding-top: 20px;
+}
+.social>ul>li>a>i:hover{
+    color: rgb(0, 102, 255);
+    transition-duration: 0.5s;
+}
+#footer{
+    background-color: #6c747a;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    color: #c9cbce;
+    text-align: center;
+    font-size: 13px;
+}
+#footer>.container>p{
+    padding-top: 10px;
+}

@@ -1,0 +1,30 @@
+$(document).ready(function(){
+    $(".afir").on("click",function(){
+        $(".alable").removeClass("active1");
+        $(this).addClass("active1");
+        $(".af").show(500);
+        $(".bf").hide(500);
+        $(".cf").hide(500);
+    })
+    $(".asec").on("click",function(){
+        $(".alable").removeClass("active1");
+        $(this).addClass("active1");
+        $(".af").hide(500);
+        $(".bf").show(500);
+        $(".cf").hide(500);
+    })
+    $(".athi").on("click",function(){
+        $(".alable").removeClass("active1");
+        $(this).addClass("active1");
+        $(".af").hide(500);
+        $(".cf").show(500);
+        $(".bf").hide(500);
+    })
+    $(".all").on("click",function(){
+        $(".alable").removeClass("active1");
+        $(this).addClass("active1");
+        $(".af").show(500);
+        $(".bf").show(500);
+        $(".cf").show(500);
+    })
+})
